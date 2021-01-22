@@ -1,0 +1,30 @@
+name: cool
+channels:
+  - defaults
+  - cadquery
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip=20.2.4
+  - cadquery=master
+  - cq-editor=master
+  - ocp=7.4
+  - notebook>=6.1.5,<6.2
+  - jupyterlab>=2.2.9,<3
+  - sidecar=0.4.0
+  - ipywidgets=7.5.1
+  - pythreejs>=2.2.1,<2.3
+  - black
+  - flake8
+  - flake8-black
+  - mypy
+  - darglint
+  - pre-commit
+  - pytest
+  - sympy
+  - numpy
+  - matplotlib
+  - pip:
+      - webcolors==1.11.1
+      - bibcure ==0.3.0
+      - git+https://github.com/bernhard-42/jupyter-cadquery.git@v2.0.0-beta2#egg=jupyter_cadquery

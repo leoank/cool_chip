@@ -12,3 +12,5 @@ __pycache__/
 .vim
 build
 indent.log
+scratch
+.ipynb_checkpoints
