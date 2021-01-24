@@ -12,5 +12,7 @@ __pycache__/
 .vim
 build
 indent.log
+__latexindent_temp.tex
 scratch
 .ipynb_checkpoints
+out
