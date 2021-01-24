@@ -3,6 +3,23 @@
 \section{Abstract}
 \labsec{abstract}
 
-\blindtext
+In recent years,
+the heat fluxes from electronics became very high (with peak values of 103W/cm2)
+and in the near future with 3D electronic system design,
+the volumetric density of heat to be removed will become even higher.\sidecite{Herwig2013}
+It presents great challenges to thermal management.
+Many studies have investigated various heat transfer enhancement techniques to solve these challenges.\sidecite{Siddique_2010}
+Within the scope of this project, we explored three of these techniques:
+
+\begin{itemize}
+    \item Optimization of fin profile
+    \item Optimization of microchannel topology
+    \item Use of nanofluids
+\end{itemize}
+
+First, we procedurally generated fin profiles using a scripting cad, CADQuery\sidecite{adam_urbanczyk_2020_4362562}.
+Similarly,  we also generated microchannel topologies.
+Then we created an automatic pipeline to perform thermal numerical simulations on the generated models.
+Finally,  we performed fluid-thermal coupling numerical simulations to assess heat transfer improvements due to the use of nanofluids together with optimized fin profiles and microchannel topology.
 
 \end{document}
