@@ -3,6 +3,46 @@
 \section{Introduction}
 \labsec{intro}
 
+Due to increasing miniaturization and 3D integration of electronics,
+the heat flux of chips has increased tremendously.
+With current peak values of around $103 W/cm^2$,
+we can expect this to reach upto $2300 W/cm^2$ in coming years.\sidecite{Herwig2013}.
 
+So, a significant number of thermal engineering researchers are seeking new methods for enhancing heat transfer through fins and between fins and surrounding fluid.\sidecite{Siddique_2010}
+In our work, we explored three of these heat transfer enhancement techniques.
 
+\subsection{Optimization of fin profile}
+Fins as extended surfaces can enhance the heat dissipation rate from hot surfaces owing to the enhancement in
+the effectiveness of the surface to be cooled. Fins can be effective enough to cool surfaces especially when natural convection is present in process.
+Erdem Cuce et al. \sidecite{Cuce2017} and H.Azarkish et al. \sidecite{AZARKISH20101938} showed that optimisation of fin profile is of vital importance in terms of the rate of heat transfer from a hot surface,
+and the optimisation procedure depends on several factors.
+Giampietro Fabbri\sidecite{FABBRI19972165},  Hamidreza Najafi et al. \sidecite{NAJAFI20111839} and Diego Copiello \sidecite{COPIELLO20091167} explored optimization of fin profiles using genetic algorithms.
+\\
+In our work, we procedurally generated many fin geometries using a scripting CAD, CADQuery.
+This helped us to perform a comparison study among a huge number fin geometries.
+
+\subsection{Optimization of microchannel topologies}
+For laminar flow in confined channels, h scales inversely with channel width, making microscopic
+channels desirable. Tuckerman and Pease \sidecite{1481851} showed that microchannel heat sinks have excellent heat transfer capacity and compact dimensions.
+Hui Tan et al. \sidecite{TAN2019681} showed that the topology structure of microchannel had a significant impact on its heat transfer
+performance, especially in high heat flux.
+\\
+Similar to fins, we procedurally generated many microchannel topologies and performed a comparison study.
+
+\subsection{Nanofluids}
+Nanofluids was coined by Choi\sidecite{osti_196525} , are engineered
+colloids made up of a base fluid and the nanoparticles.
+Nanoparticles have thermal conductivities, typically an order-of-magnitude
+higher than those of the base fluids and with sizes significantly
+smaller than 100 nm. The introduction of nanoparticles enhances
+the heat transfer performance of the base fluids significantly. The
+base fluids may be water, organic liquids (e.g. ethylene, triethylene-glycols, refrigerants, etc.), oils and lubricants, bio-fluids,
+polymeric solutions and other common liquids. The nanoparticle
+materials include chemically stable metals (e.g. gold, copper),
+metal oxides (e.g. alumina, silica, zirconia, titania), oxide ceramics
+(e.g. Al2O3, CuO), metal carbides (e.g. SiC), metal nitrides (e.g. AIN,
+SiN), carbon in various forms (e.g. diamond, graphite, carbon
+nanotubes, fullerene) and functionalized nanoparticles.
+\\
+We performed fluid-thermal coupling numerical simulation to assess heat transfer improvements due to the use of nanofluids together with optimized fin profiles and microchannel topology.
 \end{document}
